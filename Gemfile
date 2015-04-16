@@ -12,6 +12,7 @@ gem "mini_magick"
 
 gem 'carrierwave'
 gem 'carrierwave-dropbox'
+gem 'figaro'
 
 group :production do
   gem 'pg'
