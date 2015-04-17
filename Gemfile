@@ -1,3 +1,4 @@
+source 'https://code.stripe.com'
 source 'https://rubygems.org'
 
 gem 'rails', '4.1.0'
@@ -9,10 +10,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem "figaro"
 gem "mini_magick"
-
+gem 'devise'
 gem 'carrierwave'
 gem 'carrierwave-dropbox'
-gem 'figaro'
+gem 'stripe'
+gem 'bootstrap-sass'
 
 group :production do
   gem 'pg'
