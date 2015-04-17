@@ -13,6 +13,7 @@
           <h3><%= listing.name %></h3>
           <p><%= number_to_currency(listing.price) %></p>
           <p><%= "Sold by #{listing.name}" %></p>
+          <p><%= link_to "Delete", listing_path(listing.id), method: :delete,data: {confirm: "Are you sure?"} %></p>
         </div>
       </div>
     </div>
